@@ -1,6 +1,6 @@
 # REST Endpoint Spring Example
 
-The REST Endpoint Spring Example repository is a Spring Boot based project written in Java. The purpose of this project was to refresh my knowledge of Spring and REST. The project mainly follows the [TUTORIAL](https://spring.io/guides/tutorials/rest/) from [Spring.io)[https://spring.io/].
+The REST Endpoint Spring Example repository is a Spring Boot based project written in Java. The purpose of this project was to refresh my knowledge of Spring and REST. The project mainly follows the [TUTORIAL](https://spring.io/guides/tutorials/rest/) from [Spring.io](https://spring.io).
 
 ## Project Setup
 
