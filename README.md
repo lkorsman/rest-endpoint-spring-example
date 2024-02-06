@@ -1,6 +1,8 @@
 # REST Endpoint Spring Example
 
-The REST Endpoint Spring Example repository is a Spring Boot based project written in Java. The purpose of this project was to refresh my knowledge of Spring and REST. The project mainly follows the [TUTORIAL](https://spring.io/guides/tutorials/rest/) from [Spring.io](https://spring.io).
+The REST Endpoint Spring Example repository is a Spring Boot based project written in Java. The purpose of this project was to refresh my knowledge of Spring and REST. The project mainly follows the [TUTORIAL](https://spring.io/guides/tutorials/rest/) from [Spring.io](https://spring.io). 
+
+UPDATE 06Feb2024: I have added Kafka to the project with a basic POST mapping sending messages to a sample topic.
 
 ## Project Setup
 
@@ -12,15 +14,10 @@ $ ./mvnw clean spring-boot:run
 
 ## Structure
 
-The project contains one folder which houses all classes and interfaces. As this is a small project with only a few classes, I decided to keep everything in the **sampleRestEndpoint/payroll/** folder. 
-
-There are 2 controllers
-1. Employee
-2. Order
-
-The **Employee** controller will perform basic CRUD operations on an Employee.
-
-The **Order** controller will perform basic CRUD operations on an Order. The Order controller contains some business logic to mimic the order of operations when placing an order (similiar to online shopping). 
+The project contains a few folders within **/main/** (config, kafka, payroll). 
+* config contains the Producer and Consumer code for a sample Kafka topic
+* kafka contains the endpoint to produce Kafka messages and the record class of the Message
+* payroll contains the code for the [TUTORIAL](https://spring.io/guides/tutorials/rest/) mentioned above
 
 ## Storage / Database
 
